@@ -1,0 +1,16 @@
+- t = partition[:bytes_total].to_f
+- f = partition[:bytes_free].to_f
+- path = partition[:path]
+- checked = DiskPoolPartition.enabled?(path)
+tr[class="#{cycle 'odd', 'even'}"]
+  td.centered
+    = render :partial => 'partition_checkbox', :locals => { :checked => checked, :path => path }
+  td
+    = path
+    = optional_warnings(path)
+  td.centered
+    = number_to_human_size t
+  td.centered
+    = number_to_human_size f
+  td.centered
+    = number_to_percentage(f/t*100, :precision => 0)

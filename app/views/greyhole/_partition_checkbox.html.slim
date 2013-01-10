@@ -1,0 +1,8 @@
+- id="part-#{path}"
+- disabled = (!Greyhole::Lib.enabled?) || path =~ /^\/media/
+- checked = checked && !disabled
+span[id="#{id}"]
+  - if disabled
+    = check_box_tag "cb-#{id}", '', false, :disabled => true
+  - else # FIXME!!
+    = check_box_tag "cb-#{id}", '', false, :disabled => false

@@ -2,7 +2,7 @@
 - f = partition[:bytes_free].to_f
 - path = partition[:path]
 - checked = DiskPoolPartition.enabled?(path)
-tr[class="#{cycle 'odd', 'even'}"]
+tr[class="#{cycle 'even', 'odd'}"]
   td.centered
     = render :partial => 'partition_checkbox', :locals => { :checked => checked, :path => path }
   td

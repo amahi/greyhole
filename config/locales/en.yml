@@ -1,0 +1,12 @@
+# Localization in English
+
+'en':
+  # disk pooling and greyhole
+  disk_pooling_no_partitions: There are no partitions currently available for pooling
+  disk_pooling: Storage Pool
+  disk_pooling_enabled: Uses pool
+  disk_pool_details: Select the partitions you want to include in the %{greyhole} storage pool, and then have %{shares} use the storage pool.
+  disk_pool_replication: Replication
+  disk_pool_copies: Extra copies
+  greyhole_not_installed: "WARNING: Greyhole is not installed in this system!"
+  pooled: Pooled

@@ -1,13 +1,16 @@
-#users.settings
-  #users-table
-    .settings-table
-      table.settings
-        thead
-          tr
-         	  th.settings-col1.centered[scope="col" style="width:8em"]= t('pooled')
-         	  th[scope="col"]= t('location')
-         	  th.centered[scope="col"]= t('total_space')
-         	  th.centered[scope="col"]= t('free_space')
-         	  th.centered.settings-lastcol[scope="col"]= "%"
-        tbody
-          = render :partial => 'partition', :collection => @partitions
+- if @partitions.size > 0
+  .settings-table
+    table.settings
+      thead
+        tr
+          th.settings-col1.centered[scope="col" style="width:8em"]= t('pooled')
+          th[scope="col"]= t('location')
+          th.centered[scope="col"]= t('total_space')
+          th.centered[scope="col"]= t('free_space')
+          th.centered.settings-lastcol[scope="col"]= "%"
+      tbody
+        = render :partial => 'partition', :collection => @partitions
+- else
+  div.no-content
+    strong
+      = t('disk_pooling_no_partitions')

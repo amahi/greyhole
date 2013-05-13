@@ -1,7 +1,6 @@
 
 class GreyholeController < ApplicationController
 	before_filter :admin_required
-	before_filter :no_subtabs
 
 	def index
 		pl = PartitionUtils.new.info
@@ -13,4 +12,5 @@ class GreyholeController < ApplicationController
 			! @partitions.select{ |p| p[:path] == dpp.path }.empty?
 		end
 	end
+
 end

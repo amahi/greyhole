@@ -1,8 +1,6 @@
 # human readable name (no localization supported yet)
-name: Pooling
+name: Greyhole
 # class to be mounted
 class: Greyhole
-# kind of plugin (so far we only support 'tab' plugins)
-kind: tab
 # root url where this plugin will be mounted
-url: /tab/pooling
+url: /tab/greyhole

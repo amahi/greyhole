@@ -1,5 +1,5 @@
 - id="part-#{path}"
-- disabled = (!Greyhole::Lib.enabled?) || path =~ /^\/media/
+- disabled = (!Greyhole::Configuration.enabled?) || path =~ /^\/media/
 - checked = checked && !disabled
 span[id="#{id}"]
   - if disabled

@@ -1,0 +1,9 @@
+---
+ar:
+  disk_pool_copies: "نسخ إضافية"
+  disk_pooling: "مجموعة التخزين"
+  greyhole_not_installed: "تحذير: Greyhole غير مثبت في هذا النظام!"
+  pooled: Pooled
+  disk_pool_details: "قم بإختيار القسم الذي تريد ادراجه في{greyhole}}  مجموعة التخزين, ثم دع  {{shares}}  تستخدم مجموعة التخزين"
+  disk_pooling_enabled: "المساحة المستخدمة"
+  disk_pool_replication: "النسخ المتماثل"

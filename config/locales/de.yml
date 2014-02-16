@@ -1,0 +1,9 @@
+---
+de:
+  disk_pool_copies: Extra Kopien
+  disk_pooling: Storage Pool
+  greyhole_not_installed: "WARNUNG: Greyhole ist auf diesem System nicht installiert!"
+  pooled: Pooled
+  disk_pool_details: "Wählen Sie hier die Partitionen, die zum %{greyhole} Pool gehören, und danach die %{shares}, die den Pool nutzen."
+  disk_pooling_enabled: Verwendet Pool
+  disk_pool_replication: Replication

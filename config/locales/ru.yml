@@ -1,0 +1,9 @@
+---
+ru:
+  disk_pool_copies: "Дополнительные копии"
+  disk_pooling: "Пул хранения"
+  greyhole_not_installed: "ПРЕДУПРЕЖДЕНИЕ: Greyhole не установлен!"
+  pooled: "Использовать для пула хранения"
+  disk_pool_details: "Выберите разделы, которые вы хотите включить в пул хранения {{greyhole}}, а затем разрешите общим ресурсам использовать этот пул ({{shares}})"
+  disk_pooling_enabled: "Использовать пул хранения"
+  disk_pool_replication: "Репликация"

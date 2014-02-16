@@ -1,0 +1,8 @@
+---
+ja:
+  disk_pool_copies: "余分なコピー"
+  disk_pooling_enabled: "ユーザープール"
+  greyhole_not_installed: "警告: グレーホールはこのシステムにインストールされていません！"
+  disk_pool_replication: "複製"
+  disk_pool_details: "ストレージプール%{greyhole}の中に含めたいパーティションを選択し、%{shares}にストレージプールを使用させてください"
+  disk_pooling: "ストレージプール"

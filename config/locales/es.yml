@@ -1,0 +1,9 @@
+---
+es:
+  disk_pool_copies: Copias adicionales
+  disk_pooling: Discos Combinados
+  greyhole_not_installed: "ADVERTENCIA: Greyhole no está instalado en este sistema"
+  pooled: Combinados
+  disk_pool_details: "Selecciona las particiones a incluir en la zona comun de %{greyhole}, y a continuación añade %{shares} a la zona común."
+  disk_pooling_enabled: Utiliza zona combinada
+  disk_pool_replication: "Replicación"

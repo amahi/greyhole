@@ -1,0 +1,9 @@
+---
+he:
+  disk_pool_copies: "עותקים נוספים"
+  disk_pooling: "מערך אחסון"
+  greyhole_not_installed: "אזהרה: Greyhole אינו מותקן במערכת זו!"
+  pooled: "מערך"
+  disk_pool_details: "בחר את המחיצה שהנך רוצה לכלול במערך האיחסון {{greyhole}} ,ולאחר מכן {{shares}} השתתמש במערך האחסון."
+  disk_pooling_enabled: "מערך בשימוש"
+  disk_pool_replication: "שכפול"

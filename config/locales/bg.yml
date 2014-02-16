@@ -1,0 +1,9 @@
+---
+bg:
+  disk_pool_copies: "Допълнителни копия"
+  disk_pooling: "Сторидж"
+  greyhole_not_installed: "ВНИМАНИЕ: Greyhole не е инсталиран на тази система!"
+  pooled: "Изтеглени"
+  disk_pool_details: "Изберете дяловете, които искате да включите в {{greyhole}} сторидж, и след това задайте кои {{shares}} да използват сториджа."
+  disk_pooling_enabled: "Употреба"
+  disk_pool_replication: "Репликиране"

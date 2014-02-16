@@ -1,0 +1,9 @@
+---
+ro:
+  disk_pool_copies: Copii suplimentare
+  disk_pooling: Fondul comun de stocare
+  greyhole_not_installed: "ATENŢIE: Greyhole nu este instalat în acest sistem!"
+  pooled: Grupate
+  disk_pool_details: "Selectaţi partiţiile pe care doriţi să le includeţi în fondul comun de stocare %{greyhole}, şi apoi permiteţi %{shares} să folosească  fondul comun de stocare."
+  disk_pooling_enabled: "Utilizează fondul comun"
+  disk_pool_replication: Replicare

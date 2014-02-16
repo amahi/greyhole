@@ -1,0 +1,9 @@
+---
+fr:
+  disk_pool_copies: "Copies supplémentaires"
+  disk_pooling: Groupement de disques
+  greyhole_not_installed: "ATTENTION : Greyhole n'est pas installé sur ce système !"
+  pooled: "Groupé"
+  disk_pool_details: "Sélectionnez les partitions que vous voulez inclure dans le groupement de disques %{greyhole} et ensuite rendre disponibles dans les %{shares}."
+  disk_pooling_enabled: Utilise le groupement de disques
+  disk_pool_replication: "Réplication"

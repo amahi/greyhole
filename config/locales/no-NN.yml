@@ -1,0 +1,9 @@
+---
+no-NN:
+  disk_pool_copies: Ekstra kopiar
+  disk_pooling: Storage Pool
+  greyhole_not_installed: "ADVARSEL: Greyhole er ikkje installert på dette systemet!"
+  pooled: Pooled
+  disk_pool_details: Vel partisjonene du vil inkludera i %{greyhole} Storage pool, og la %{shares} bruke i storage pool.
+  disk_pooling_enabled: Bruker pool
+  disk_pool_replication: Replikasjon

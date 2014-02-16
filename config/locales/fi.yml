@@ -1,0 +1,9 @@
+---
+fi:
+  disk_pool_copies: "Lisäkopiot"
+  disk_pooling: Tallennuspalvelu
+  greyhole_not_installed: "VAROITUS: Greyholea ei ole asennetty tähän järjestelmään!"
+  pooled: Yhdistetty
+  disk_pool_details: "Valitse osiot, jotka haluat sisällyttää %{greyhole}-tallennuspalveluun ja sen jälkeen salli %{shares} käyttää tallennuspalvelua."
+  disk_pooling_enabled: "Käyttää palvelua"
+  disk_pool_replication: Replikointi

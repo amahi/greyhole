@@ -1,0 +1,9 @@
+---
+hr:
+  disk_pool_copies: Dodatne kopije
+  disk_pooling: Polje za pohranu
+  greyhole_not_installed: "UPOZORENJE: Greyhole nije instaliran na ovom sustavu!"
+  pooled: "Udružuje"
+  disk_pool_details: "Odaberi particije koje želiš uključiti u %{greyhole} polje i onda podesi %{shares} da koriste to polje."
+  disk_pooling_enabled: Koristi polje
+  disk_pool_replication: Kopiranje

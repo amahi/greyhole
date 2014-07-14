@@ -1,0 +1,9 @@
+---
+nl:
+  disk_pool_copies: "Extra copiëen"
+  disk_pooling: Opslag pool
+  greyhole_not_installed: "WAARSCHUWING: Greyhole is niet geinstalleerd op dit systeem!"
+  pooled: Pooled
+  disk_pool_details: Selecteer de partitie's die je toe wil voegen in %{greyhole} opslag, voor %{shares} om te gebruiken.
+  disk_pooling_enabled: Gebruikt pool
+  disk_pool_replication: Replicatie

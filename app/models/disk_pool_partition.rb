@@ -1,5 +1,5 @@
 # Amahi Home Server
-# Copyright (C) 2007-2010 Amahi
+# Copyright (C) 2007-2014 Amahi
 #
 # This program is free software; you can redistribute it and/or
 # modify it under the terms of the GNU General Public License v3
@@ -17,9 +17,9 @@
 class DiskPoolPartition < ActiveRecord::Base
 	include Greyhole
 
-	after_save	:regenerate_confguration
-	after_create	:regenerate_confguration
-	after_destroy	:regenerate_confguration
+	after_save	:generate_confguration
+	after_create	:generate_confguration
+	after_destroy	:generate_confguration
 
 	def self.enabled?(path)
 		p = self.find_by_path(path)
@@ -28,7 +28,7 @@ class DiskPoolPartition < ActiveRecord::Base
 
 protected
 
-	def regenerate_confguration
+	def generate_confguration
 		Greyhole.save_conf_file(DiskPoolPartition.all, Share.in_disk_pool)
 	end
 end

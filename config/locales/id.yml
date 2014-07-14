@@ -1,0 +1,9 @@
+---
+id:
+  disk_pool_copies: kopi tambahan
+  disk_pooling: Storage pool
+  greyhole_not_installed: "PERHATIAN: Greyhole tidak terpasang dalam sistem ini!"
+  pooled: Pooled
+  disk_pool_details: Pilihlah partisi yang ingin anda masukkan dalam %{greyhole} storage pool, kemudian biarkan %{shares} menggunakan storage pool
+  disk_pool_replication: Replikasi
+  disk_pooling_enabled: Pool pengguna

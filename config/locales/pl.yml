@@ -1,0 +1,9 @@
+---
+pl:
+  disk_pool_copies: Dodatkowe kopie
+  disk_pooling: "Pula pamięci masowej"
+  greyhole_not_installed: "UWAGA: Greyhole nie jest zainstalowany!"
+  pooled: Zbiorcze
+  disk_pool_details: "Wybierz partycje, które chcesz umieścić w puli pamięci %{greyhole}, a potem ustaw %{shares}  tak by wykorzystywały tą pulę."
+  disk_pooling_enabled: "Używa puli"
+  disk_pool_replication: Replikacja

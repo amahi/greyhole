@@ -10,3 +10,4 @@
   disk_pool_copies: Extra copies
   greyhole_not_installed: "WARNING: Greyhole is not installed in this system!"
   pooled: Pooled
+  pooling: Pooling

@@ -1,5 +1,5 @@
 
-class GreyholeController < ApplicationController
+class PoolingController < ApplicationController
 	before_filter :admin_required
 
 	def index
